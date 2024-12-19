@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a simple portfolio website designed to showcase the work of a developer/DevOps engineer. The website is built using HTML, CSS, and JavaScript, and it utilizes a Flexbox layout for responsive design.
+This is a simple portfolio website designed to showcase the work of a Platform & Automation engineer. The website is built using HTML, CSS, and JavaScript, and it utilizes a Flexbox layout for responsive design.
 
 ## Project Structure
 
