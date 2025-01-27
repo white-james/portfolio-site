@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #190588;
+    background-color: #06021b;
     color: rgb(180, 180, 180);
 }
 
@@ -18,7 +18,7 @@ img {
     align-items: center;
     max-width: 1200px;
     margin: auto;
-    padding: 20px;
+    padding: 100px;
 }
 
 .bio-content {
@@ -29,7 +29,7 @@ img {
 .bio-content p {
     flex: 1;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 0px;
     order: 1;
 }
 
@@ -49,7 +49,7 @@ img {
 }
 
 nav {
-    background-color: #333;
+    background-color: #06021b;
     overflow: hidden;
 }
 
