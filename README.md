@@ -1,6 +1,65 @@
-# Getting Started with Create React App
+# James White Portfolio Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the personal portfolio website for **James White**, a Platform & Automation Engineer specializing in DevOps, cloud migration, and IT systems management. The site showcases James's professional experience, skills, certifications, and provides a downloadable CV.
+
+## About the Site
+
+- **Purpose:**  
+  To present James White's professional background, technical skills, certifications, and recent projects in a modern, responsive format. The site also provides contact information and a downloadable CV.
+
+- **Features:**  
+  - Responsive design using [Bootstrap](https://getbootstrap.com/)
+  - Built with [React](https://react.dev/) (bootstrapped with [Create React App](https://github.com/facebook/create-react-app))
+  - Modular React components for easy maintenance and scalability
+  - Downloadable CV/Resume
+  - Clean, dark-themed UI with accessible navigation
+  - Source code and assets organized for clarity
+
+## How It Was Made
+
+- **Framework:**  
+  [React](https://react.dev/) (using Create React App)
+
+- **Styling:**  
+  [Bootstrap 5](https://getbootstrap.com/) and [Bootstrap Icons](https://icons.getbootstrap.com/) for layout, components, and icons.  
+  Custom CSS for additional tweaks.
+
+- **Structure:**  
+  - Each major section (Bio, Experience, Certifications, Resume, Footer) is a separate React component in `src/components/`.
+  - The navigation bar and footer are shared across all pages.
+  - Static assets (images, CV) are stored in the `public/` folder.
+
+- **Deployment:**  
+  The site can be deployed as a static site using GitHub Pages, Azure Static Web Apps, or any static hosting provider.
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/portfolio-site.git
+   cd portfolio-site
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```sh
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
+
+4. **Build for production:**
+   ```sh
+   npm run build
+   ```
+   This will create a `build` folder with the production-ready files.
+
+5. **Deploy the site:**
+   - For GitHub Pages, run `npm run deploy` (ensure your repository is correctly set in `package.json`).
+   - For other hosts, upload the contents of the `build` folder to your web server.
 
 ## Available Scripts
 
