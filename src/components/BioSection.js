@@ -12,7 +12,7 @@ export default function BioSection() {
           </p>
         </div>
         <div className="col-md-4 text-center">
-          <img src="/rsz_img_0069_1b.jpg" alt="Your Photo" className="img-fluid rounded mb-3" style={{ maxWidth: "200px" }} />
+          <img src={process.env.PUBLIC_URL + "/rsz_img_0069_1b.jpg"} alt="Your Photo" className="img-fluid rounded mb-3" style={{ maxWidth: "200px" }} />
         </div>
       </div>
     </section>
